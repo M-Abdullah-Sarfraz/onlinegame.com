@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(240, 238, 85);
+}
+
+.heading {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.guessnumber {
+  font-size: 35px;
+  text-align: right;
+}
+
+.image {
+  position: absolute;
+  font-size: 2rem;
+  top: 18rem;
+  left: 5rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.number {
+  position: absolute;
+  left: 750px;
+  background-color: none;
+  border: 4px solid rgb(236, 233, 233);
+  text-align: center;
+  width: 15rem;
+  height: 15rem;
+  font-size: 10rem;
+}
+
+.space {
+  padding-top: 19rem;
+}
+
+.guess {
+  background-color: aqua;
+  position: absolute;
+  left: 50rem;
+  width: 140px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid rgb(211, 89, 89);
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+}
+
+.enternumber {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.again {
+  align-content: center;
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  font-size: 30px;
+  border: 2px solid rgb(211, 89, 89);
+  border-radius: 15px;
+  background-color: rgb(181, 173, 240);
+}
+
+.cluescore {
+  position: absolute;
+  right: 25rem;
+  top: 20rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.result {
+  text-align: center;
+  font-size: 3rem;
+}
